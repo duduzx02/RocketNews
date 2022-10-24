@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: url(read_news.jpg);
+    background-position: top right;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    background-color: var(--body-bg-color);
+    width: 1120px;
+    height: 780px;
+    position: absolute;
+
+}
+
+body::after {
+    content: '';
+    background-color: var(--body-bg-color);
+    width: 800px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.logo img{
+    width: 389px;
+    height: 94px;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.texts{
+    margin-top: 92px;
+    margin-left: 36px;
+}
+
+.texts h1{
+    font-family: 'work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: var(--title-color);
+    padding-bottom: 17px;
+}
+
+.texts h3{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #ffffff;
+    padding-bottom: 17px;
+}
+
+.texts p{
+    width: 647px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.form{
+    margin-left: 36px;
+    margin-top: 50px;
+}
+
+.entrada{
+    display: flex;
+    width: 1118px;
+    margin-top: 18px;
+}
+
+.entrada img{
+    width: 48px;
+    height: 48px;
+    background-color:var(--bg-button-color);
+    border: solid 2px var(--bg-button-color);
+    margin: -3px;
+}
+
+.form input{
+    width: 798px;
+    height: 48px;
+    border-left: solid 8px var(--title-color);
+}
+
+#label{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--form-color);
+}
+
+.link{
+    margin-top: 50px;
+    margin-left: 36px;
+    display: flex;
+    gap: 5px;
+}
+
+.link img{
+    color: #8257e5;
+    /* background-color: #8257e5; */
+}
+
+.link a{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8257e5;
+}
+
